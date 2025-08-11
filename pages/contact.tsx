@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-const siteUrl = 'https://wordcounter.local/'; // Replace with production URL
+const siteUrl = 'https://wordcounter.guru/'; // Replace with production URL
 const pagePath = 'contact';
 
 export default function ContactPage() {

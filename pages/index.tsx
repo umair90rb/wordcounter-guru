@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import Head from 'next/head';
 
-const siteUrl = 'https://wordcounter.local/';
+const siteUrl = 'https://wordcounter.guru/';
 
 function countWords(input: string): number {
   const trimmed = input.trim();
