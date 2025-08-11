@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const siteUrl = 'https://wordcounter.local/'; // Replace with production URL
 const pagePath = 'about';
@@ -29,8 +30,15 @@ export default function AboutPage() {
 
       <header className="border-b border-gray-200 bg-white/80 backdrop-blur">
         <div className="container-max py-6">
-          <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">About Us</h1>
-          <p className="mt-2 text-sm text-gray-600">A fast, simple tool for everyone.</p>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">About Us</h1>
+              <p className="mt-2 text-sm text-gray-600">A fast, simple tool for everyone.</p>
+            </div>
+            <Link href="/" className="btn">
+              Go Home
+            </Link>
+          </div>
         </div>
       </header>
 
